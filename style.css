@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio:400,600,700,700i&display=swap&subset=latin-ext');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Gelasio', serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+section .paralaxPhotoHeader {
+    text-align: center;
+}
+
+section .paralaxPhotoHeader h2 {
+    font-size: 15vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1em;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+}
+
+section:nth-child(1) .paralaxPhotoHeader h2 {
+    background-image: url(https://images.unsplash.com/photo-1560698711-6df2370d7d62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+}
+
+section:nth-child(2) .paralaxPhotoHeader h2 {
+    background-image: url(https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
+}
+
+section:nth-child(3) .paralaxPhotoHeader h2 {
+    background-image: url(https://images.unsplash.com/photo-1505009258427-29298f4dc5f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+}
+
+section:nth-child(4) .paralaxPhotoHeader h2 {
+    background-image: url(https://images.unsplash.com/photo-1563439070049-aed1d7cc9d33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+section .paralaxPhotoHeader p {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section .paralaxPhotoHeader a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+}
